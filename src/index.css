@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #faf6f0;
+  --color-surface-cream: #f5efe6;
+  --color-surface-card: #ffffff;
+  --color-warm-apricot: #f7ded0;
+  --color-blush-soft: #faece5;
+  --color-terracotta: #c1664e;
+  --color-terracotta-dark: #9c4832;
+  --color-sage-soft: #7d8b76;
+  --color-sage-light: #e4eae0;
+  --color-sage-dark: #364535;
+  --color-honey-beige: #e8dcce;
+  --color-on-surface: #322a26;
+  --color-on-surface-subtle: #695e57;
+  --color-linen-border: #eedecf;
+  --color-primary: #394634;
+  --color-primary-soft: #4f6049;
+
+  --font-serif: "Noto Serif KR", Georgia, serif;
+  --font-sans: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf6f0;
+  color: #322a26;
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Material symbol baseline alignment */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
+}
+
+.material-symbols-filled {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24 !important;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5efe6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eedecf;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c1664e;
+}
+
+/* Slow marquee animation for reviews */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 42s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-slow:hover,
+.animate-marquee-slow:focus-within {
+  animation-play-state: paused;
+}
+

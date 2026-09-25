@@ -1,0 +1,6 @@
+{
+  "name": "꽃을 담다 (L'Atelier de Fleurs & Jardin)",
+  "description": "따사로운 햇살과 파스텔 생화가 피어나는 프랑스풍 온실 아틀리에. 성수동 온실 본점 제철 꽃다발 예약 및 온실 플라워 클래스.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
