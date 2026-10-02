@@ -31,7 +31,7 @@ export const BrandStorySection: React.FC<BrandStorySectionProps> = ({ onLearnMor
 
             <h2 className="font-serif text-2xl sm:text-3xl text-[#322a26] font-light leading-snug mb-4">
               꽃 한 송이에 담긴<br />
-              <span className="italic font-normal text-[#394634]">온실의 시간과 계절의 기억</span>
+              <span className="font-normal text-[#394634]">온실의 시간과 계절의 기억</span>
             </h2>
 
             <p className="font-serif text-sm sm:text-base text-[#695e57] font-light leading-relaxed mb-6">
