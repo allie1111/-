@@ -1,6 +1,6 @@
 import { Bouquet, Review, ClassSession } from '../types';
 
-export const HERO_IMAGE = 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=1200&auto=format&fit=crop&q=85';
+export const HERO_IMAGE = 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?w=1200&auto=format&fit=crop&q=85';
 export const STORY_IMAGE = 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&auto=format&fit=crop&q=85';
 export const CLASS_IMAGE_1 = 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFQSVCRCU4MyVFQiU4QiVBNCVFQiVCMCU5QyUyMCVFRCU4MSVCNCVFQiU5RSU5OCVFQyU4QSVBNHxlbnwwfHwwfHx8Mg%3D%3D';
 export const CLASS_IMAGE_2 = 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JUVBJUJEJTgzJUVCJThCJUE0JUVCJUIwJTlDfGVufDB8fDB8fHwy';
