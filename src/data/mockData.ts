@@ -1,7 +1,7 @@
 import { Bouquet, Review, ClassSession } from '../types';
 
-export const HERO_IMAGE = 'https://lh3.googleusercontent.com/aida/AEtjO1XY7XwNYpVwn4KLggKJkvUUKjH2ca2mCufvPc4nyBp4K-LUynodJwEARymT6CRC1vop2MqZDd1vSu4iYkUgqKOtwBXvH-mest3-ZnKTx8J45-2IprSiCY4ydJzdZW2QHQJ3acGQ-4W1dqV7KzmSK_j6q5MVw4F3ttLCXJdvje-iBLBmYc62aqfaRyX8lz31KtWWcr632y0QRyZJazwjJY9BsUGt9dqgtfT-0i_r1PFEvCj-vsjk_ybOJkRi';
-export const STORY_IMAGE = 'https://lh3.googleusercontent.com/aida/AEtjO1VCBQ3IPjcihgUDgfwjKn7hn_G5cZwjNM3vC9siFfkS1F6EU_o7UfwWNZEg2H7lR3s_yR8lE5nx3FbDEZFfuppvDMgUGIncZYljC5HHzQQNgj_qL4yb3sqPvFmhFO_2mY9A_gnd9DGun6L6Jxn_8gxV6U1p-q187tmBwaaF52KLpYGFxbBtCkRvqrkQZXb63VskhIhlIangR7hxZgdpoZUsAndoNSLwOYln6bWtuxKDPZnLnCAei_p0lq3F';
+export const HERO_IMAGE = 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=1200&auto=format&fit=crop&q=85';
+export const STORY_IMAGE = 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1000&auto=format&fit=crop&q=85';
 export const CLASS_IMAGE_1 = 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFQSVCRCU4MyVFQiU4QiVBNCVFQiVCMCU5QyUyMCVFRCU4MSVCNCVFQiU5RSU5OCVFQyU4QSVBNHxlbnwwfHwwfHx8Mg%3D%3D';
 export const CLASS_IMAGE_2 = 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JUVBJUJEJTgzJUVCJThCJUE0JUVCJUIwJTlDfGVufDB8fDB8fHwy';
 export const MAP_IMAGE = 'https://lh3.googleusercontent.com/aida-public/AB6AXuDLDkBKyBZTJPypAt04hFUhR_G3Sdj_rgEAczzouJMRDhwFBWM19dosZP5H7MOxtYKuRC48W7BpGen4EIeQVgkFkT9DKsBEVkX7wej1Q-FVavD0n0ecIVXu88TJMfPKQ8N9qUeXD9N8ZyPLEVrVIety5FUE1ppcayLI-vGSpkhZFRvNxHC2JrlKDLfvW8bzqcBADG1_wIb1RknqphctgApOnpJvrwREBrjl9jpE4C1jdFBcCotyPHWDIQ';
@@ -15,7 +15,7 @@ export const INITIAL_BOUQUETS: Bouquet[] = [
     category: 'romantic',
     tag: 'Best Seller',
     isAvailableToday: true,
-    image: 'https://lh3.googleusercontent.com/aida/AEtjO1VCBQ3IPjcihgUDgfwjKn7hn_G5cZwjNM3vC9siFfkS1F6EU_o7UfwWNZEg2H7lR3s_yR8lE5nx3FbDEZFfuppvDMgUGIncZYljC5HHzQQNgj_qL4yb3sqPvFmhFO_2mY9A_gnd9DGun6L6Jxn_8gxV6U1p-q187tmBwaaF52KLpYGFxbBtCkRvqrkQZXb63VskhIhlIangR7hxZgdpoZUsAndoNSLwOYln6bWtuxKDPZnLnCAei_p0lq3F',
+    image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?w=1000&auto=format&fit=crop&q=85',
     flowers: ['살구 라넌큘러스', '줄리엣 가든 로즈', '아스틸베', '유칼립투스 폴리안'],
     description: '따뜻한 온실의 아침 햇살을 그대로 머금은 듯한 피치빛 색감입니다. 부드러운 화이트 톤과 은은한 살구빛이 어우러져 프로포즈 및 기념일에 가장 사랑받는 시그니처 부케입니다.',
     dimensions: '약 35cm x 45cm',
@@ -57,7 +57,7 @@ export const INITIAL_BOUQUETS: Bouquet[] = [
     category: 'romantic',
     tag: 'Classic',
     isAvailableToday: true,
-    image: 'https://lh3.googleusercontent.com/aida/AEtjO1VCBQ3IPjcihgUDgfwjKn7hn_G5cZwjNM3vC9siFfkS1F6EU_o7UfwWNZEg2H7lR3s_yR8lE5nx3FbDEZFfuppvDMgUGIncZYljC5HHzQQNgj_qL4yb3sqPvFmhFO_2mY9A_gnd9DGun6L6Jxn_8gxV6U1p-q187tmBwaaF52KLpYGFxbBtCkRvqrkQZXb63VskhIhlIangR7hxZgdpoZUsAndoNSLwOYln6bWtuxKDPZnLnCAei_p0lq3F',
+    image: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=1000&auto=format&fit=crop&q=85',
     flowers: ['잉글리시 가든 로즈', '연보라 리시안셔스', '옥시페탈룸', '유칼립투스'],
     description: '클래식한 정원 장미와 투톤 리시안셔스를 볼륨감 있게 연출했습니다. 손끝에서 전해지는 린넨 감촉과 함께 특별한 로맨틱 데이를 완성합니다.',
     dimensions: '약 36cm x 46cm',
